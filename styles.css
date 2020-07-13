@@ -1,0 +1,59 @@
+body {
+  text-align: center;
+  font-family: 'Roboto Mono', monospace;
+  margin-left: auto;
+
+}
+
+hr {
+  border-top: 2px dotted gray;
+  width: 30%;
+}
+
+.tomatoes {
+  height: 30%;
+  width: 30%;
+
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: orange;
+}
+
+.sandwich {
+  height: 30%;
+  width: 30%;
+  padding-bottom: 50px;
+}
+
+
+.sidenav {
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 160px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  background-color: #315659;
+  font-family: monospace;
+  overflow-x: hidden; /* Disable horizontal scroll */
+  padding-top: 20px;
+  padding-right: 40px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 20px;
+  color: #AEB7B3;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
